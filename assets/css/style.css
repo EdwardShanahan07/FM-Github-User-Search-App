@@ -1,3 +1,11 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+:root {
+  --Font-Family-Primary: "Space Mono", monospace;
+}
+
 /* Global */
 
 html {
@@ -8,4 +16,8 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--Font-Family-Primary);
 }
