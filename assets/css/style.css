@@ -31,7 +31,47 @@ body {
   font-family: var(--Font-Family-Primary);
   background-color: var(--Color-DM-Dark-Blue);
   height: 100vh;
+  padding: 3.1rem 2.4rem;
+}
+
+.navbar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  color: var(--Color-DM-White);
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Toggle Switch */
+
+.toggle-switch {
+  color: var(--Color-DM-White);
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.toggle-switch img {
+  margin-left: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 14rem 9.8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    padding: 14.4rem 35.5rem;
+  }
 }
