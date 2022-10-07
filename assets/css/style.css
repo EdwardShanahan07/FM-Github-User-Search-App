@@ -234,6 +234,15 @@ body {
   .form__btn {
     font-size: 1.6rem;
   }
+
+  .card {
+    padding: 4rem;
+  }
+
+  .card__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 1440px) {
