@@ -1,0 +1,28 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--Font-Family-Primary);
+  background-color: var(--Color-DM-Dark-Blue);
+  height: 100vh;
+  padding: 3.1rem 2.4rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 14rem 9.8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    padding: 14.4rem 35.5rem;
+  }
+}

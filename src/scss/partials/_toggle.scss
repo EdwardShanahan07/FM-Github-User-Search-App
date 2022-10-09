@@ -1,0 +1,14 @@
+.toggle-switch {
+  color: var(--Color-DM-White);
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.toggle-switch svg {
+  margin-left: 1.6rem;
+}
