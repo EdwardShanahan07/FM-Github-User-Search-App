@@ -13,16 +13,12 @@ body {
   background-color: var(--Color-DM-Dark-Blue);
   height: 100vh;
   padding: 3.1rem 2.4rem;
-}
 
-@media (min-width: 768px) {
-  body {
+  @include Responsive-Tablet {
     padding: 14rem 9.8rem;
   }
-}
 
-@media (min-width: 1440px) {
-  body {
+  @include Responsive-Desktop {
     padding: 14.4rem 35.5rem;
   }
 }

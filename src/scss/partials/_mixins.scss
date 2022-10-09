@@ -1,0 +1,11 @@
+@mixin Responsive-Tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin Responsive-Desktop {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
