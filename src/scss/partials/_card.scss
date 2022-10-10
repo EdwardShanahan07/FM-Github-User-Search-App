@@ -6,7 +6,6 @@
   padding: 3.2rem 2.4rem;
 
   &__img {
-    margin-bottom: 3.3rem;
     grid-column: 1 /2;
   }
 
@@ -28,6 +27,7 @@
   }
 
   &__joined {
+    margin-bottom: 3.3rem;
     color: var(--Color-DM-White);
     font-size: 1.3rem;
   }
