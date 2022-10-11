@@ -1,0 +1,30 @@
+.toggle {
+  color: var(--color-text-1);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover,
+  &:hover svg g,
+  &:hover svg path {
+    color: var(--color-toggle-hover);
+    fill: var(--color-toggle-hover);
+  }
+
+  & span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-right: 1.6rem;
+  }
+
+  &__icon--moon {
+    display: none;
+  }
+
+  &__icon--sun {
+    display: block;
+  }
+}
