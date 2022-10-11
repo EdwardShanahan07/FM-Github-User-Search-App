@@ -1,12 +1,18 @@
 :root {
-  --Color-Primary: #0079ff;
-  --Color-LM-Medium-Grey: #697c9a;
-  --Color-LM-Light-Blue: #4b6a9b;
-  --Color-LM-Dark-Grey: #2b3442;
-  --Color-LM-Light-Grey: #f6f8ff;
-  --Color-LM-White: #fefefe;
-  --Color-DM-White: #ffffff;
-  --Color-DM-Dark-Blue: #141d2f;
-  --Color-DM-Medium-Blue: #1e2a47;
-  --Font-Family-Primary: "Space Mono", monospace;
+  --color-body-background: #141d2f;
+  --color-text-1: #fff;
+  --color-logo: #fff;
+  --color-toggle: #fff;
+  --color-repo-background: #141d2f;
+
+  --font-family: "Space Mono", monospace;
+}
+
+.light-mode {
+  --color-body-background: #f6f8ff;
+  --color-text-1: #4b6a9b;
+  --color-text-2: #2b3442;
+  --color-logo: #222731;
+  --color-toggle: #4b6a9b;
+  --color-repo-background: #f6f8ff;
 }
