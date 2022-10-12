@@ -1,10 +1,12 @@
 :root {
+  --color-primary: #0079ff;
   --color-body-background: #141d2f;
   --color-text-1: #fff;
   --color-text-2: #fff;
   --color-logo: #fff;
   --color-toggle: #fff;
   --color-toggle-hover: #90a4d4;
+  --color-search-background: #1e2a47;
   --color-repo-background: #141d2f;
 
   --font-family: "Space Mono", monospace;
@@ -17,5 +19,6 @@
   --color-logo: #222731;
   --color-toggle: #222731;
   --color-toggle-hover: #222731;
-  --color-repo-background: #f6f8ff;
+  --color-search-background: #fefefe;
+  --color-repo-background: #fefefe;
 }
