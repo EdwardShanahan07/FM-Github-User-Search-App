@@ -40,8 +40,24 @@
   }
 
   &__info {
-  }
+    display: flex;
+    background-color: var(--color-info-background);
+    border-radius: 10px;
+    padding: 1.9rem 1.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
 
-  &__social-links {
+    &-heading-3 {
+      font-size: 1.1rem;
+      font-weight: normal;
+      margin-bottom: 0.8rem;
+    }
+
+    &-heading-2 {
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
   }
 }
