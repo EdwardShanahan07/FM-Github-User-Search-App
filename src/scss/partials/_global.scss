@@ -12,13 +12,26 @@ body {
   background-color: var(--color-body-background);
   font-family: var(--font-family);
   height: 100vh;
-  padding: 3rem 2.4rem;
+  padding: 3rem 0;
 
   @include responsive-tablet {
-    padding: 14rem 9.8rem;
+    padding: 14rem 0;
   }
 
-  @include responsive-desktop() {
-    padding: 14.4rem 35.5rem;
+  @include responsive-desktop {
+    padding: 14.4rem 0;
+  }
+}
+
+.container {
+  width: 327px;
+  margin: 0 auto;
+
+  @include responsive-tablet {
+    width: 573px;
+  }
+
+  @include responsive-desktop {
+    width: 730px;
   }
 }
