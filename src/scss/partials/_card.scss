@@ -4,6 +4,10 @@
   border-radius: 15px;
   padding: 3.2rem 2.4rem 4.8rem 2.4rem;
 
+  @include responsive-tablet {
+    padding: 4rem;
+  }
+
   &__header {
     display: flex;
     margin-bottom: 3.3rem;
@@ -16,27 +20,48 @@
       width: 7rem;
       height: 7rem;
       border-radius: 50%;
+
+      @include responsive-tablet {
+        width: 11.7rem;
+        height: 11.7rem;
+      }
     }
   }
 
   &__name {
     font-size: 1.6rem;
+
+    @include responsive-tablet {
+      font-size: 2.6rem;
+    }
   }
 
   &__url {
     color: var(--color-primary);
     font-size: 1.3rem;
     margin-bottom: 0.6rem;
+
+    @include responsive-tablet {
+      font-size: 1.6rem;
+    }
   }
 
   &__joined {
     font-size: 1.3rem;
+
+    @include responsive-tablet {
+      font-size: 1.5rem;
+    }
   }
 
   &__bio {
     font-size: 1.3rem;
     line-height: 25px;
     margin-bottom: 2.5rem;
+
+    @include responsive-tablet {
+      font-size: 1.5rem;
+    }
   }
 
   &__info {
@@ -49,32 +74,55 @@
     justify-content: space-between;
     margin-bottom: 2.4rem;
 
+    @include responsive-tablet {
+      padding: 1.7rem 3.2rem;
+    }
+
     &-heading-3 {
       font-size: 1.1rem;
       font-weight: normal;
       margin-bottom: 0.8rem;
+
+      @include responsive-tablet {
+        font-size: 1.3rem;
+      }
     }
 
     &-heading-2 {
       font-size: 1.6rem;
       font-weight: bold;
+
+      @include responsive-tablet {
+        font-size: 2.2rem;
+      }
+    }
+  }
+
+  &__social-group {
+    &:not(:last-child) {
+      margin-bottom: 1.6rem;
     }
   }
 
   &__social-links {
     display: flex;
     flex-direction: column;
+
+    @include responsive-tablet {
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
 
   &__social-link {
     color: var(--color-text-1);
-    font-size: 1.3rem;
     text-decoration: none;
     display: flex;
     align-items: center;
+    margin-bottom: 1.6rem;
 
-    &:not(:last-child) {
-      margin-bottom: 1.6rem;
+    @include responsive-tablet {
+      font-size: 1.5rem;
     }
 
     &:hover {
